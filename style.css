@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+
+header{
+    background-color: #004175 ;
+    border-color: #89DEEF;
+}
+
+h1 {
+    font-family: Oswald ;
+    color: white;
+    text-align: left;
+
+
+}
+
+nav {
+   
+    text-align: right;
+    font-family: Open Sans;
+    font-size: small; 
+    color: black;
+}
