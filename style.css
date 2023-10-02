@@ -95,6 +95,8 @@ div.table{
     row-gap: 10px;
     column-gap: 10px;
     align-content: space-evenly;
+   width: 1200;
+  
     
 }
 div.beans{
@@ -102,6 +104,7 @@ div.beans{
     background-color: white;
     border: solid rgb(245, 235, 235);
     align-content: space-evenly;
+    
 }
 div.zelda{
     padding: 10px;
