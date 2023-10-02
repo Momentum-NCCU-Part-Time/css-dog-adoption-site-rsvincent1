@@ -78,3 +78,75 @@ div.container{
    
     */
 }
+
+nav.adopt-nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+    margin: 25px;
+}
+span.traits{
+    display: inline-block;
+    background-color: #89DEEF;
+}
+div.table{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-content: space-evenly;
+    
+}
+div.beans{
+    padding: 10px;
+    background-color: white;
+    border: solid rgb(245, 235, 235);
+    align-content: space-evenly;
+}
+div.zelda{
+    padding: 10px;
+    background-color: white;
+    border: solid rgb(245, 235, 235);
+}
+
+div.baby{
+    padding: 10px;
+    background-color: white;
+    border: solid rgb(245, 235, 235);
+}
+
+div.tom-tom{
+    padding: 10px;
+    background-color: white;
+    border: solid rgb(245, 235, 235);
+}
+
+div.marco{
+    padding: 10px;
+    background-color: white;
+    border: solid rgb(245, 235, 235);
+}
+
+div.shackleton{
+    padding: 10px;
+    background-color: white;
+    border: solid rgb(245, 235, 235);
+}
+
+div.midge{
+    padding: 10px;
+    background-color: white;
+    border: solid rgb(245, 235, 235);
+}
+
+div.ladybird{
+    padding: 10px;
+    background-color: white;
+    border: solid rgb(245, 235, 235);
+}
+
+div.mina{
+    padding: 10px;
+    background-color: white;
+    border: solid rgb(245, 235, 235);
+}
