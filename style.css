@@ -12,6 +12,8 @@ h1 {
 
 
 }
+
+
 div.text m{
     display: flex;
     /* position: absolute;
@@ -40,7 +42,10 @@ nav {
 
     
 }
-
+div.box{
+    padding: 0;
+    margin: 0;
+}
 div.overlay{
     /* position: absolute; */
     /* bottom: 100%;
@@ -63,20 +68,26 @@ div.overlay{
 }
 
 
-div.container{
-    place-items: center;
+div.box{
+    height:auto;
+    width:auto;
+    /* place-items: center;
     place-content: center;
     justify-content: center;
     bottom: 0;
-    height: 200;
-    width: 1200;
-   /* z-index: 9;
-   display: flex;
-   background-position:center;
-   display: flex;
+ */
    
+   /* display: flex; */
+   /* background-position:center;
+   display: flex; */
+
+
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: start; 
    
-    */
+    
 }
 
 nav.adopt-nav{
@@ -85,71 +96,99 @@ nav.adopt-nav{
     padding: 8px;
     margin: 25px;
 }
-span.traits{
-    display: inline-block;
-    background-color: #89DEEF;
-}
-div.table{
-    display: flex;
+
+div.container{
+     display: flex;
     flex-wrap: wrap;
     row-gap: 10px;
     column-gap: 10px;
     align-content: space-evenly;
    width: 1200;
-  
+   justify-content: center; 
     
 }
+
+div.subHeader{
+    justify-content: center;
+}
+
+span.traits{
+    display: inline-block;
+    background-color: #89DEEF;
+    border-radius: 25px;
+}
+
 div.beans{
     padding: 10px;
     background-color: white;
     border: solid rgb(245, 235, 235);
     align-content: space-evenly;
+    width: 300px;
+    height: 370px;
+  
     
 }
 div.zelda{
     padding: 10px;
     background-color: white;
     border: solid rgb(245, 235, 235);
+    width: 300px;
+    height: 370px;
 }
 
 div.baby{
     padding: 10px;
     background-color: white;
     border: solid rgb(245, 235, 235);
+    width: 300px;
+    height: 370px;
 }
 
 div.tom-tom{
     padding: 10px;
     background-color: white;
     border: solid rgb(245, 235, 235);
+    width: 300px;
+    height: 370px;
 }
 
 div.marco{
     padding: 10px;
     background-color: white;
     border: solid rgb(245, 235, 235);
+    width: 300px;
+    height: 370px;
 }
 
 div.shackleton{
     padding: 10px;
     background-color: white;
     border: solid rgb(245, 235, 235);
+    width: 300px;
+    height: 370px;
 }
 
 div.midge{
     padding: 10px;
     background-color: white;
     border: solid rgb(245, 235, 235);
+    width: 300px;
+    height: 370px;
 }
 
 div.ladybird{
     padding: 10px;
     background-color: white;
     border: solid rgb(245, 235, 235);
+    width: 300px;
+    height: 370px;
 }
 
 div.mina{
     padding: 10px;
     background-color: white;
     border: solid rgb(245, 235, 235);
+    width: 300px;
+    height: 370px;
+    
 }
