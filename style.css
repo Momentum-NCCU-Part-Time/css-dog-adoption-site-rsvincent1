@@ -57,7 +57,7 @@ footer {
 
 .volunteer {
   background: linear-gradient(rgba(85, 85, 240, 0.5), rgba(85, 85, 240, 0.5)),
-    url(images/donate.jpg);
+    url(images/volunteer.jpg);
 
   width: 300;
   height: 225;
@@ -70,7 +70,7 @@ footer {
 
 .location {
   background: linear-gradient(rgba(85, 85, 240, 0.5), rgba(85, 85, 240, 0.5)),
-    url(images/donate.jpg);
+    url(images/location.png);
   width: 300;
   height: 225;
 }
