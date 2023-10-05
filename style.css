@@ -1,0 +1,208 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap");
+
+header {
+  background-color: #004175;
+  border-color: #89deef;
+  font-family: Oswald;
+  color: white;
+}
+
+h1 {
+  text-align: left;
+}
+.adopt-nav {
+  margin-right: 90px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+div.contact {
+  height: 1000px;
+  font-size: large;
+}
+
+div.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: large;
+  color: white;
+}
+footer {
+  margin: 10;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.donate {
+  background: linear-gradient(rgba(85, 85, 240, 0.5), rgba(85, 85, 240, 0.5)),
+    url(images/donate.jpg);
+  flex: 1 1 auto;
+  width: 300;
+  height: 225;
+}
+.donate:hover {
+  background-image: url(images/donate.jpg);
+}
+
+.volunteer {
+  background: linear-gradient(rgba(85, 85, 240, 0.5), rgba(85, 85, 240, 0.5)),
+    url(images/volunteer.jpg);
+  flex: 1 1 auto;
+  width: 300;
+  height: 225;
+}
+.volunteer:hover {
+  background-image: url(images/volunteer.jpg);
+  /* width: 300;
+    height: 225; */
+}
+
+.location {
+  background: linear-gradient(rgba(85, 85, 240, 0.5), rgba(85, 85, 240, 0.5)),
+    url(images/location.png);
+  flex: 1 1 auto;
+  width: 300;
+  height: 225;
+}
+
+.location:hover {
+  background-image: url(images/location.png);
+  /* width: 300;
+    height: 225; */
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: 90px;
+  font-size: xxx-large;
+  color: white;
+  text-shadow: 1px 0 black;
+}
+
+div.missionStatement {
+  height: 1200px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  text-align: end;
+  font-family: Open Sans;
+  font-size: small;
+  /* color: rgb(209, 8, 8); */
+}
+
+.box {
+  /* margin-left: 500;
+  margin-right: 500; */
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+  /* width: 1000px; */
+}
+
+.subHeader {
+  height: auto;
+  width: auto;
+  display: flex;
+}
+
+div.subDesc {
+  display: flex;
+}
+li.traits {
+  display: inline-block;
+  background-color: #89deef;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #89deef;
+  border-width: 4px;
+  margin: 3px;
+}
+
+.beans {
+  padding: 10px;
+  background-color: white;
+  border: solid rgb(245, 235, 235);
+  align-content: space-evenly;
+  width: 300px;
+  height: 370px;
+}
+div.zelda {
+  padding: 10px;
+  background-color: white;
+  border: solid rgb(245, 235, 235);
+  width: 300px;
+  height: 370px;
+}
+
+div.baby {
+  padding: 10px;
+  background-color: white;
+  border: solid rgb(245, 235, 235);
+  width: 300px;
+  height: 370px;
+}
+
+div.tom-tom {
+  padding: 10px;
+  background-color: white;
+  border: solid rgb(245, 235, 235);
+  width: 300px;
+  height: 370px;
+}
+
+div.marco {
+  padding: 10px;
+  background-color: white;
+  border: solid rgb(245, 235, 235);
+  width: 300px;
+  height: 370px;
+}
+
+div.shackleton {
+  padding: 10px;
+  background-color: white;
+  border: solid rgb(245, 235, 235);
+  width: 300px;
+  height: 370px;
+}
+
+div.midge {
+  padding: 10px;
+  background-color: white;
+  border: solid rgb(245, 235, 235);
+  width: 300px;
+  height: 370px;
+}
+
+div.ladybird {
+  padding: 10px;
+  background-color: white;
+  border: solid rgb(245, 235, 235);
+  width: 300px;
+  height: 370px;
+}
+
+div.mina {
+  padding: 10px;
+  background-color: white;
+  border: solid rgb(245, 235, 235);
+  width: 300px;
+  height: 370px;
+}
