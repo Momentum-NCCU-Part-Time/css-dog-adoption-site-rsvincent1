@@ -45,26 +45,20 @@ footer {
 }
 
 .donate {
-  background-image: linear-gradient(
-    rgba(85, 85, 240, 0.5),
-    rgba(85, 85, 240, 0.5)
-  );
-  opacity: 35%;
+  background: linear-gradient(rgba(85, 85, 240, 0.5), rgba(85, 85, 240, 0.5)),
+    url(images/donate.jpg);
+
   width: 300;
   height: 225;
 }
 .donate:hover {
   background-image: url(images/donate.jpg);
-  /* width: 300;
-  height: 225; */
 }
 
 .volunteer {
-  background-image: linear-gradient(
-    rgba(85, 85, 240, 0.5),
-    rgba(85, 85, 240, 0.5)
-  );
-  opacity: 35%;
+  background: linear-gradient(rgba(85, 85, 240, 0.5), rgba(85, 85, 240, 0.5)),
+    url(images/donate.jpg);
+
   width: 300;
   height: 225;
 }
@@ -75,14 +69,12 @@ footer {
 }
 
 .location {
-  background-image: linear-gradient(
-    rgba(85, 85, 240, 0.5),
-    rgba(85, 85, 240, 0.5)
-  );
-  opacity: 35%;
+  background: linear-gradient(rgba(85, 85, 240, 0.5), rgba(85, 85, 240, 0.5)),
+    url(images/donate.jpg);
   width: 300;
   height: 225;
 }
+
 .location:hover {
   background-image: url(images/location.png);
   /* width: 300;
@@ -100,7 +92,8 @@ h2 {
 div.missionStatement {
   height: 1200px;
   width: 1000px;
-  text-align: justify;
+  display: flex;
+  flex-direction: column;
 }
 
 nav {
@@ -111,8 +104,8 @@ nav {
 }
 
 .box {
-  margin-left: 500;
-  margin-right: 500;
+  /* margin-left: 500;
+  margin-right: 500; */
 }
 
 .table {
@@ -120,7 +113,7 @@ nav {
   flex-wrap: wrap;
   row-gap: 10px;
   column-gap: 10px;
-  width: 1000px;
+  /* width: 1000px; */
 }
 
 .subHeader {
