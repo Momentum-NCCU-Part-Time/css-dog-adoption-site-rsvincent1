@@ -8,12 +8,15 @@
 header {
   background-color: #004175;
   border-color: #89deef;
+  font-family: Oswald;
+  color: white;
 }
 
 h1 {
-  font-family: Oswald;
-  color: white;
   text-align: left;
+}
+.adopt-nav {
+  margin-right: 90px;
 }
 
 .underline {
@@ -33,6 +36,67 @@ div.text {
   font-size: large;
   color: white;
 }
+footer {
+  margin: 10;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-left: 200px;
+}
+
+.donate {
+  background-image: linear-gradient(
+    rgba(85, 85, 240, 0.5),
+    rgba(85, 85, 240, 0.5)
+  );
+  opacity: 35%;
+  width: 300;
+  height: 225;
+}
+.donate:hover {
+  background-image: url(images/donate.jpg);
+  /* width: 300;
+  height: 225; */
+}
+
+.volunteer {
+  background-image: linear-gradient(
+    rgba(85, 85, 240, 0.5),
+    rgba(85, 85, 240, 0.5)
+  );
+  opacity: 35%;
+  width: 300;
+  height: 225;
+}
+.volunteer:hover {
+  background-image: url(images/volunteer.jpg);
+  /* width: 300;
+    height: 225; */
+}
+
+.location {
+  background-image: linear-gradient(
+    rgba(85, 85, 240, 0.5),
+    rgba(85, 85, 240, 0.5)
+  );
+  opacity: 35%;
+  width: 300;
+  height: 225;
+}
+.location:hover {
+  background-image: url(images/location.png);
+  /* width: 300;
+    height: 225; */
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: 90px;
+  font-size: xxx-large;
+  color: white;
+  text-shadow: 1px 0 black;
+}
+
 div.missionStatement {
   height: 1200px;
   width: 1000px;
@@ -45,38 +109,21 @@ nav {
   font-size: small;
   /* color: rgb(209, 8, 8); */
 }
-/* div.box {
-  padding: 0;
-  margin: 0;
-} */
-div.overlay {
-  /* position: absolute; */
-  /* bottom: 100%;
-    left: 0;
-    right: 0; */
-  background-color: rgba(170, 61, 180, 0.5);
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin: auto;
-  height: 158px;
-  width: 450px;
-}
 
-div.box {
+.box {
   margin-left: 500;
   margin-right: 500;
 }
 
-div.container {
+.table {
   display: flex;
   flex-wrap: wrap;
   row-gap: 10px;
   column-gap: 10px;
-  width: 1200px;
+  width: 1000px;
 }
 
-div.subHeader {
+.subHeader {
   height: auto;
   width: auto;
   display: flex;
