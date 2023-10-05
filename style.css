@@ -41,13 +41,12 @@ footer {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  padding-left: 200px;
 }
 
 .donate {
   background: linear-gradient(rgba(85, 85, 240, 0.5), rgba(85, 85, 240, 0.5)),
     url(images/donate.jpg);
-
+  flex: 1 1 auto;
   width: 300;
   height: 225;
 }
@@ -58,7 +57,7 @@ footer {
 .volunteer {
   background: linear-gradient(rgba(85, 85, 240, 0.5), rgba(85, 85, 240, 0.5)),
     url(images/volunteer.jpg);
-
+  flex: 1 1 auto;
   width: 300;
   height: 225;
 }
@@ -71,6 +70,7 @@ footer {
 .location {
   background: linear-gradient(rgba(85, 85, 240, 0.5), rgba(85, 85, 240, 0.5)),
     url(images/location.png);
+  flex: 1 1 auto;
   width: 300;
   height: 225;
 }
@@ -135,7 +135,7 @@ li.traits {
   margin: 3px;
 }
 
-div.beans {
+.beans {
   padding: 10px;
   background-color: white;
   border: solid rgb(245, 235, 235);
